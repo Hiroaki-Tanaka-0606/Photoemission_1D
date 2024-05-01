@@ -14,3 +14,4 @@ RUN make
 FROM busybox:latest
 COPY --from=builder /source/cpp/*.o /work/
 WORKDIR /work
+CMD ["./photoemission_well.o"]
