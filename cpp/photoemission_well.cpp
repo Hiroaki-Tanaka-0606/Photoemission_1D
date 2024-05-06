@@ -12,13 +12,13 @@ int main() {
   /// System
   double half_well_length = 10;
   double half_system_length = 1000;
-  double potential_well = -1.0;
+  double potential_well = -0.5;
   int numPoints_per_unit = 10;
   double k_convergence_threshold = 1e-10;
   /// Photoemission simulations
   double Ekin_min = .2;
   double Ekin_delta = 0.02;
-  int numEkin = 41;
+  int numEkin = 71;
   int numLEStates_sim = 1; // should be < number of bound states
   double deltaH_amplitude = 1;
   double propagation_length = 100;
